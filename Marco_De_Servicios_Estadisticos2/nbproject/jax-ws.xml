@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="Media">
+      <implementation-class>Servicios_Estadisticos.Media</implementation-class>
+    </service>
+    <service name="Moda">
+      <implementation-class>Servicios_Estadisticos.Moda</implementation-class>
+    </service>
+    <service name="Mediana">
+      <implementation-class>Servicios_Estadisticos.Mediana</implementation-class>
+    </service>
+    <service name="Varianza">
+      <implementation-class>Servicios_Estadisticos.Varianza</implementation-class>
+    </service>
+    <service name="Rango">
+      <implementation-class>Servicios_Estadisticos.Rango</implementation-class>
+    </service>
+    <service name="DesviacionEstandar">
+      <implementation-class>Servicios_Estadisticos.DesviacionEstandar</implementation-class>
+    </service>
+    <service name="Curtosis">
+      <implementation-class>Servicios_Estadisticos.Curtosis</implementation-class>
+    </service>
+    <service name="Correlacion">
+      <implementation-class>Servicios_Estadisticos.Correlacion</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>
